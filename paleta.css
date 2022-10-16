@@ -117,3 +117,87 @@ footer p{
         justify-content: center;
     }
 }
+
+@media (min-width:700px){
+
+    body{
+        max-width: 128rem;
+        width: 100vw;
+        max-height: 72rem;
+    }
+
+    header{
+        max-height: 30rem;
+    }
+
+    .corpo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 72rem;
+        min-width: 128rem;
+        background-color:white;
+        margin-top: auto;
+    }
+
+    .direita{
+        display: grid;
+        grid-template-areas: "A B C"
+                             "D B E"
+                             "D F E" 
+                             "G G G";
+        gap: 3.2rem;     
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        background-color:white;
+        margin-left: 20px;
+    }
+
+    .sorvete1, .sorvete11{
+        height: fit-content;
+    }
+
+    .sorvete1{
+        grid-area: A;
+    }
+    .sorvete2{
+        grid-area: B;
+    }
+
+    .sorvete11{
+        grid-area: C;
+    }
+
+    .sorvete3{
+        grid-area: F;
+    }
+
+    .sorvete4{
+        grid-area: D;
+    }
+
+    .sorvete41{
+        grid-area: E;   
+    }
+
+    .esquerda{
+        background-color: #8E9AAF;
+        max-height: 797px ;
+    }
+
+    .lorem{
+       max-height: 500px;
+       font-size: 2.4rem;
+       line-height: 5rem;
+       color: #FFFFFF;
+       margin-bottom: 0;
+       overflow: hidden;
+    }
+
+    footer{
+        grid-area: G;
+        width: 59.2rem;
+        height: 2.8rem;
+        margin: 0 auto;
+    }  
+
+}
