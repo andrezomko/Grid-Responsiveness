@@ -105,3 +105,15 @@ footer{
 footer p{
     font-weight: 700;
 }
+
+@media (max-width: 321px){
+
+    img{
+        width: 90vw;
+    }
+
+    .direita{
+        margin-left: auto;
+        justify-content: center;
+    }
+}
