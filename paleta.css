@@ -19,9 +19,9 @@ body{
     background-color: #EFF1FF;
 }
 
-.corpo{
+.theBody{
     background-color: #EFF1FF;
-    border: 2px solid blue;
+
     width: 100vw;
 }
 
@@ -63,24 +63,22 @@ header h1{
     line-height: 2rem;
 }
 
-.direita{
+.right{
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
     align-items: center;
 }
 
-.esquerda{
-    border: 2px solid green;
-}
 
-.sorvete1, .sorvete2,.sorvete3,.sorvete11 ,.sorvete4,.sorvete41 {
+
+.iceCream1, .iceCream2,.iceCream3,.iceCream11 ,.iceCream4,.iceCream41 {
     position: relative;
     height: fit-content;
     width: fit-content;
 }
 
-.sorvete1 p, .sorvete2 p,.sorvete3 p,.sorvete11 p ,.sorvete4 p, .sorvete41 p{
+.iceCream1 p, .iceCream2 p,.iceCream3 p,.iceCream11 p ,.iceCream4 p, .iceCream41 p{
     position: absolute;
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
@@ -112,7 +110,7 @@ footer p{
         width: 90vw;
     }
 
-    .direita{
+    .right{
         margin-left: auto;
         justify-content: center;
     }
@@ -130,7 +128,7 @@ footer p{
         max-height: 30rem;
     }
 
-    .corpo{
+    .theBody{
         display: grid;
         grid-template-columns: 1fr 1fr;
         min-height: 72rem;
@@ -139,7 +137,7 @@ footer p{
         margin-top: auto;
     }
 
-    .direita{
+    .right{
         display: grid;
         grid-template-areas: "A B C"
                              "D B E"
@@ -152,34 +150,34 @@ footer p{
         margin-left: 20px;
     }
 
-    .sorvete1, .sorvete11{
+    .iceCream1, .iceCream11{
         height: fit-content;
     }
 
-    .sorvete1{
+    .iceCream1{
         grid-area: A;
     }
-    .sorvete2{
+    .iceCream2{
         grid-area: B;
     }
 
-    .sorvete11{
+    .iceCream11{
         grid-area: C;
     }
 
-    .sorvete3{
+    .iceCream3{
         grid-area: F;
     }
 
-    .sorvete4{
+    .iceCream4{
         grid-area: D;
     }
 
-    .sorvete41{
+    .iceCream41{
         grid-area: E;   
     }
 
-    .esquerda{
+    .left{
         background-color: #8E9AAF;
         max-height: 797px ;
     }
